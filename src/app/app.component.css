@@ -1,0 +1,24 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+
+:host ::ng-deep .datatable.bootstrap {
+  box-shadow: none;
+}
+
+:host ::ng-deep .datatable.bootstrap .datatable-header,
+:host ::ng-deep .datatable.bootstrap .datatable-footer {
+  background-color: #f5f5f5;
+  border-bottom: none;
+}
+
+:host ::ng-deep .datatable.bootstrap .datatable-row-group {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+:host ::ng-deep .datatable.bootstrap .datatable-row-group .datatable-toggle-detail {
+  color: #333;
+}
+
+:host ::ng-deep .datatable.bootstrap .datatable-row-hover {
+  background-color: #e0e0e0;
+}
